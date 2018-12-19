@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92703950-f592-40e3-a515-d4882b8a3087" name="Default Changelist" comment="">
+      <change afterPath="D:/Users/Administrator/IdeaProjects/SpringAnnotationDevelop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/javaProjectServer/corepro-activemq-monitor/src/main/java/corepro/activemq/monitor/ActivemqController.java" afterDir="false" />
+      <change afterPath="D:/javaProjectServer/corepro-activemq-monitor/src/main/java/corepro/activemq/monitor/GlobExceptionHandler.java" afterDir="false" />
+      <change afterPath="D:/javaProjectServer/corepro-activemq-monitor/src/main/java/corepro/activemq/monitor/SpringConfig.java" afterDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/BeaconCoreproActivemqServer.iml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/pom.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/src/main/java/cn/beacon/bean/CoreProGwTypeBean.java" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/src/main/java/cn/beacon/bean/ProducerMessageBean.java" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/src/main/java/cn/beacon/mapper/CoreProGwTypeMapper.java" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/src/main/java/cn/beacon/rabbit/RmqConsumer.java" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/src/main/java/cn/beacon/service/CoreProGwTypeService.java" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/src/main/resources/conf/applicationContext.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/src/main/resources/conf/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/src/main/resources/conf/mybatis.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/src/main/resources/db.properties" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/src/main/resources/mapper/CoreProGwTypeMapper.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/classes/cn/beacon/bean/CoreProGwTypeBean.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/classes/cn/beacon/bean/ProducerMessageBean.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/classes/cn/beacon/mapper/CoreProGwTypeMapper.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/classes/cn/beacon/rabbit/RmqConsumer.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/classes/cn/beacon/service/CoreProGwTypeService.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/classes/conf/applicationContext.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/classes/conf/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/classes/conf/mybatis.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/classes/mapper/CoreProGwTypeMapper.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/amqp-client-5.0.0.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/aspectjweaver-1.8.9.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/c3p0-0.9.5.1.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/gson-2.8.2.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/http-client-2.0.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/httpclient-4.5.3.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/httpcore-4.4.6.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/jackson-core-2.9.2.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/jackson-databind-2.9.2.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/mchange-commons-java-0.2.10.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/mysql-connector-java-5.1.39.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/netty-buffer-4.1.16.Final.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/netty-codec-4.1.16.Final.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/netty-codec-http-4.1.16.Final.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/netty-codec-socks-4.1.16.Final.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/netty-common-4.1.16.Final.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/netty-handler-4.1.16.Final.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/netty-handler-proxy-4.1.16.Final.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/netty-resolver-4.1.16.Final.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/netty-transport-4.1.16.Final.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/netty-transport-native-epoll-4.1.16.Final.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/netty-transport-native-unix-common-4.1.16.Final.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/reactive-streams-1.0.1.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/reactor-core-3.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/reactor-netty-0.7.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-amqp-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-aspects-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-messaging-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-rabbit-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-retry-1.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-webflux-5.0.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/BeaconCoreproActivemqServer/index.jsp" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/classes/cn/beacon/bean/CoreProGwTypeBean.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/classes/cn/beacon/bean/ProducerMessageBean.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/classes/cn/beacon/mapper/CoreProGwTypeMapper.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/classes/cn/beacon/rabbit/RmqConsumer.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/classes/cn/beacon/service/CoreProGwTypeService.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/classes/conf/applicationContext.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/classes/conf/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/classes/conf/mybatis.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconCoreproActivemqServer/target/classes/mapper/CoreProGwTypeMapper.xml" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/.idea/workspace.xml" beforeDir="false" afterPath="D:/Users/Administrator/IdeaProjects/BeaconHttp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp$1$1.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp$1.class" beforeDir="false" afterPath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp$1.class" afterDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp$2.class" beforeDir="false" afterPath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp$2.class" afterDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp$3.class" beforeDir="false" afterPath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp$3.class" afterDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp$4.class" beforeDir="false" afterPath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp$4.class" afterDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp$5.class" beforeDir="false" afterPath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp$5.class" afterDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp.class" beforeDir="false" afterPath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/BeaconHttp.class" afterDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/achieve/Is2FileTask.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/achieve/Response$1.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/achieve/Response.class" beforeDir="false" afterPath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/http/achieve/Response.class" afterDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/json/TestJson.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/json/UserBean$InfoBean.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/json/UserBean.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/INetService.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/Main$1.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/Main$2.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/Main$3$1.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/Main$3.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/Main$4$1.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/Main$4.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/Main$5.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/Main.class" beforeDir="false" afterPath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/Main.class" afterDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/User.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/ac2/Encrypt.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/ac2/FamilyOrgBean.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/ac2/OrgId.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/ac2/RealOrgId$LanguageBean.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/ac2/RealOrgId$OrgBean.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/ac2/RealOrgId.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/ac2/Token.class" beforeDir="false" />
+      <change beforePath="D:/Users/Administrator/IdeaProjects/BeaconHttp/out/production/BeaconHttp/com/beacon/test/ac2/UTC2Date.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML Properties File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/aop/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/aop/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/aop/LogAspects.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/aop/AopConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/condition/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/condition/bean/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/condition/bean/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/condition/WindowsCondition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/condition/LinuxCondition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/custom_filter/bean/MyUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/condition/ConditionConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/bean/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/bean/MyUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/custom_filter/ClassNameFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/custom_filter/MyFilterConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/custom_filter/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/custom_filter/bean/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/custom_filter/FilterConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/test_import/MyImportSelector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/bean/Emploee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/bean/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/test_import/ImportConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/test_import/MyImportBeanDefinitionRegistrar.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/spring_springmvc_config/bean/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/spring_springmvc_config/ResourceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/spring_springmvc_config/MyWebAppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/spring_springmvc_config/RootConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/spring_springmvc_config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/other/PersonFactoryBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/other/bean/LifeBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/other/OtherConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/other/bean/LifeBean2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/other/bean/LifeBean3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/other/bean/MyBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/thing/UserDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/thing/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/thing/TxConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/config/MyWebAppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lq/ssad/config/ResourceConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="study-spring-annotation-develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-spring-annotation-develop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-spring-annotation-develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-spring-annotation-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-spring-annotation-develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-spring-annotation-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-spring-annotation-develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-spring-annotation-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-spring-annotation-develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-spring-annotation-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-spring-annotation-develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-spring-annotation-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-spring-annotation-develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-spring-annotation-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-spring-annotation-develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-spring-annotation-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-spring-annotation-develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-spring-annotation-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-spring-annotation-develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-spring-annotation-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-spring-annotation-develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544695247264" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lq.ssad.spring_springmvc_config" />
+      <recent name="lq.ssad.bean" />
+      <recent name="lq.ssad.test_import" />
+      <recent name="lq.ssad.custom_filter" />
+      <recent name="lq.ssad.custom_filter.bean" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\studyJava\study-spring-annotation-develop\src\main\java\lq\ssad" />
+      <recent name="D:\studyJava\study-spring-annotation-develop\src\main\java\lq\ssad\thing" />
+      <recent name="D:\studyJava\study-spring-annotation-develop\src\main\java\lq\ssad\other\bean" />
+      <recent name="D:\studyJava\study-spring-annotation-develop\src\main\java\lq\ssad\custom_filter" />
+      <recent name="D:\studyJava\study-spring-annotation-develop\src\main\java\lq\ssad\aop" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestMain.testTx">
+    <configuration name="TestMain.testCustomFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-spring-annotation-develop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMain" />
+      <option name="METHOD_NAME" value="testCustomFilter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain.testImportConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-spring-annotation-develop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMain" />
+      <option name="METHOD_NAME" value="testImportConfig" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain.testOtherConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-spring-annotation-develop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMain" />
+      <option name="METHOD_NAME" value="testOtherConfig" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain.testSpringAndSpringMVC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-spring-annotation-develop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMain" />
+      <option name="METHOD_NAME" value="testSpringAndSpringMVC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain.testTx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-spring-annotation-develop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMain" />
+      <option name="METHOD_NAME" value="testTx" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMain.testTx" />
+        <item itemvalue="JUnit.TestMain.testOtherConfig" />
+        <item itemvalue="JUnit.TestMain.testSpringAndSpringMVC" />
+        <item itemvalue="JUnit.TestMain.testImportConfig" />
+        <item itemvalue="JUnit.TestMain.testCustomFilter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92703950-f592-40e3-a515-d4882b8a3087" name="Default Changelist" comment="" />
+      <created>1544238175546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544238175546</updated>
+      <workItem from="1544238186693" duration="3139000" />
+      <workItem from="1544660581197" duration="19807000" />
+      <workItem from="1544746463889" duration="690000" />
+      <workItem from="1545007494707" duration="130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestMain_testOtherConfig - 2018.12.13 at 14h 02m 13s.xml">
+      <configuration name="TestMain.testOtherConfig" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testOtherConfig - 2018.12.13 at 14h 02m 56s.xml">
+      <configuration name="TestMain.testOtherConfig" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testOtherConfig - 2018.12.13 at 14h 09m 54s.xml">
+      <configuration name="TestMain.testOtherConfig" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testOtherConfig - 2018.12.13 at 14h 10m 43s.xml">
+      <configuration name="TestMain.testOtherConfig" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testOtherConfig - 2018.12.13 at 14h 11m 15s.xml">
+      <configuration name="TestMain.testOtherConfig" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testTx - 2018.12.13 at 15h 22m 26s.xml">
+      <configuration name="TestMain.testTx" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testTx - 2018.12.13 at 15h 28m 46s.xml">
+      <configuration name="TestMain.testTx" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testTx - 2018.12.13 at 15h 36m 25s.xml">
+      <configuration name="TestMain.testTx" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testTx - 2018.12.13 at 15h 37m 08s.xml">
+      <configuration name="TestMain.testTx" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testTx - 2018.12.13 at 15h 38m 38s.xml">
+      <configuration name="TestMain.testTx" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23766000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25855747" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30536914" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32997763" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="D:/" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class</url>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/core/annotation/AliasFor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/aop/AopConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="186" column="29" lean-forward="true" selection-start-line="186" selection-start-column="29" selection-end-line="186" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/condition/bean/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/condition/bean/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/condition/WindowsCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/condition/LinuxCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/bean/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/bean/MyUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/custom_filter/bean/MyUser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/custom_filter/bean/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/custom_filter/bean/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/custom_filter/TestMain.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/TestMain.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/custom_filter/ClassNameFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/bean/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/custom_filter/FilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/spring_springmvc_config/bean/DataSource.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aspects/5.1.2.RELEASE/spring-aspects-5.1.2.RELEASE.jar!/org/springframework/context/annotation/aspectj/EnableSpringConfigured.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/spring_springmvc_config/RootConfig.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerComposite.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#2417#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/spring_springmvc_config/AppConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/spring_springmvc_config/MyWebAppInitializer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/spring_springmvc_config/ResourceConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/test_import/ImportConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/test_import/MyImportBeanDefinitionRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/test_import/MyImportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/condition/ConditionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/other/bean/LifeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/other/bean/LifeBean2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/thing/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2075">
+          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/thing/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.2.RELEASE/spring-tx-5.1.2.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/other/bean/LifeBean3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/other/bean/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/thing/TxConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/other/OtherConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/other/PersonFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/config/MyWebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/config/ResourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/config/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="85" selection-start-column="9" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lq/ssad/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
